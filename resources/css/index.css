@@ -41,15 +41,10 @@ nav {
 
 /* ========== BUTTON ========== */
 button, .button-link {
-  border: none;
-  padding: 12px 30px;
-  border-radius: 30px;
   background: #69c4f7;
-  color: white;
   font-weight: bold;
   font-size: 15px;
   transition: transform 0.4s;
-  cursor: pointer;
   text-decoration: none;
 }
 
@@ -64,10 +59,9 @@ button:hover, .button-link:hover {
 }
 
 /* ========== INTRO ========== */
+
 .intro {
-}
-.intro {
-  height: calc(100vh - 100px); /* Adjust 60px to your navbar's height */
+  height: calc(100vh - 100px);
   display: flex;
   justify-content: center;       /* Center horizontally */
   align-items: center;           /* Center vertically */
